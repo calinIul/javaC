@@ -35,4 +35,4 @@ List key features or functionalities of your project. You can use bullet points 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/calinIul/javaC.git
