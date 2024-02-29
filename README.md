@@ -1,6 +1,6 @@
 # Java Course Project
 
-This repository contains the source code for a project developed as part of the Java Programming course (CS101) at XYZ University. The project focuses on applying Java programming concepts learned during the course to develop a practical application.
+This repository contains the source code for a project developed as part of the Java Programming course at UPT University. The project focuses on applying Java programming concepts learned during the course to develop a practical application.
 
 ## Table of Contents
 
