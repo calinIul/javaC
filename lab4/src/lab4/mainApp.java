@@ -22,12 +22,12 @@ public class mainApp {
             while ((line = reader.readLine()) != null ){
                 String[] data = line.split(";");
                 String tip = data[5];
-                if (tip == "imprimanta") {
+                if (tip.equals("imprimanta")) {
 
                     Imprimante imp = new Imprimante(data[0], Integer.parseInt(data[1]), Float.parseFloat(data[2]), data[3], data[4], Integer.parseInt(data[6]), data[7], Integer.parseInt(data[8]), data[9]);
                     list.add(imp);
                 }
-                else if (tip == "copiator")
+                else if (tip.equals("copiator"))
                 {
 
                     Copiatoare copi = new Copiatoare(data[0], Integer.parseInt(data[1]), Float.parseFloat(data[2]), data[3], data[4], Integer.parseInt(data[6]), data[7]);
@@ -50,7 +50,7 @@ public class mainApp {
             System.out.println(e);
 
         }
-        
+
     }
 
 }
