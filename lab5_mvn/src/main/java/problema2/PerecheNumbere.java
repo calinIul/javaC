@@ -75,14 +75,21 @@ public class PerecheNumbere {
         }
         return a == b;
     }
+
     public boolean cifre_pare() {
         int a = 0;
         int b = 0;
-        while (x > 0 || y > 0) {
+        while (x > 0) {
             if ((x % 10) % 2 == 0) a++;
-            if ((y % 10) % 2 == 0) b++;
+
             x = x / 10;
-            y = y/ 10;
+
+        }
+        while (y > 0) {
+            if ((y % 10) % 2 == 0) b++;
+
+            y = y / 10;
+
         }
         return a == b;
     }

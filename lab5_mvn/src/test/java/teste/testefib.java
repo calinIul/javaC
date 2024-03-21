@@ -19,12 +19,12 @@ public class testefib {
     }
     @Test
     void test_suma() {
-        PerecheNumbere pn = new PerecheNumbere(15, 123);
+        PerecheNumbere pn = new PerecheNumbere(78, 12345);
         assertEquals(true, pn.suma_cifrelor());
     }
     @Test
     void test_cifre_pare() {
-        PerecheNumbere pn = new PerecheNumbere(248, 842);
+        PerecheNumbere pn = new PerecheNumbere(2418, 842);
         assertEquals(true, pn.cifre_pare());
     }
 }
